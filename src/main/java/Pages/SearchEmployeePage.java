@@ -4,10 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.asserts.SoftAssert;
 
 public class SearchEmployeePage {
 
 	private WebDriver driver;
+	 SoftAssert softAssert = new SoftAssert();
+
 	
 	@FindBy(xpath="//h3")
 	private WebElement headerEmployeeSearch;
@@ -46,8 +49,10 @@ public class SearchEmployeePage {
 	
 	public void verifySearchEmployeeHeader() throws InterruptedException {
 		Thread.sleep(1000);
+		softAssert.assertTrue(headerEmployeeSearch.isDisplayed(), "Employee Search header is not displayed!");
 		String Header = headerEmployeeSearch.getText();
         System.out.println("Hedaer text = "+ Header );
+
         
 	}
         
@@ -91,6 +96,7 @@ public class SearchEmployeePage {
 
     		public void verifyEditEmployeeHeader() throws InterruptedException {
     			Thread.sleep(1000);
+    			softAssert.assertTrue(headerEmployeeEdit.isDisplayed(), "Employee Edit header is not displayed!");
     			String Header = headerEmployeeEdit.getText();
     	        System.out.println("Hedaer text = "+ Header );
 
