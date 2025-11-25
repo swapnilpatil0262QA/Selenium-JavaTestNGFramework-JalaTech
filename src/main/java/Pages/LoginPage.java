@@ -12,6 +12,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage {
+	private WebDriver driver;
+
 	
 	@FindBy(xpath="//input[@class='form-control' and @name='UserName']")
 	private WebElement emailTextbox;

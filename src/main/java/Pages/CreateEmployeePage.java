@@ -12,10 +12,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.asserts.SoftAssert;
 
 public class CreateEmployeePage {
 	private WebDriver driver;
-	
+	 SoftAssert softAssert = new SoftAssert();
+
 	@FindBy(xpath="//h1")
 	private WebElement headerCreateEmployeePage;
 	
@@ -75,6 +77,7 @@ public class CreateEmployeePage {
 	
 	public void verifyCreateEmployeeHeader() throws InterruptedException {
 		Thread.sleep(1000);
+		softAssert.assertTrue(headerCreateEmployeePage.isDisplayed(), "Employee Create header is not displayed!");
 		String Header = headerCreateEmployeePage.getText();
         System.out.println("Hedaer text = "+ Header );
 

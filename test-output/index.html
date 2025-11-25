@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,8 +21,7 @@
      -->
   </head>
 
-  <body>
-    <div class="top-banner-root">
+  <body>    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
@@ -51,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Swapnil\AppData\Local\Temp\testng-eclipse--935357315\testng-customsuite.xml</span>
+                    <span>C:\Users\Swapnil\AppData\Local\Temp\testng-eclipse--218818025\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +103,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test.JalaTechTest" class="method navigator-link" hash-for-method="verifyLoginPage">verifyLoginPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test.JalaTechnologiesDemo" class="method navigator-link" hash-for-method="verifyLableEmploeeOptionsOnHomePage">verifyLableEmploeeOptionsOnHomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,14 +121,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Test.JalaTechTest</span>
+              <span class="class-name">Test.JalaTechnologiesDemo</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginPage">
-                  </a> <!-- verifyLoginPage -->
-                  <span class="method-name">verifyLoginPage</span>
+                  <a name="verifyLableEmploeeOptionsOnHomePage">
+                  </a> <!-- verifyLableEmploeeOptionsOnHomePage -->
+                  <span class="method-name">verifyLableEmploeeOptionsOnHomePage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +136,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Swapnil\AppData\Local\Temp\testng-eclipse--935357315\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Swapnil\AppData\Local\Temp\testng-eclipse--218818025\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +145,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Test.JalaTechTest&quot;/&gt;
+      &lt;class name=&quot;Test.JalaTechnologiesDemo&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyLableEmploeeOptionsOnHomePage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Test.JalaTechnologiesDemo --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -188,14 +191,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyLoginPage')
-data.setCell(0, 2, 'Test.JalaTechTest')
-data.setCell(0, 3, 65088);
+data.setCell(0, 1, 'verifyLableEmploeeOptionsOnHomePage')
+data.setCell(0, 2, 'Test.JalaTechnologiesDemo')
+data.setCell(0, 3, 13110);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -210,9 +213,56 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">21 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test.JalaTechnologiesDemo</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyAndClickSaveButtononCreateEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyandClickAddEmployeeBtnOnSearchEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyLableEmployeeOptionSearchOnHomePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyLableEmployeeOnHomePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyAndClickCheckboxQAAutomationonCreateEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyAddressDetailsOnCreateEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyAndMultipleTabonHomePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyEditEmployeeHeaderonEditEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyandClickRadioButtonMaleOnCreateEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyEmployeePersonalDetailsOnCreateEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyAndClickSearchbtnonSearchEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyAndEnterNameonSearchEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifySearchEmployeeHeaderonSearchEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyAndClickLableMoreonHomePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyLableMenuonHomePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyLoginFunctionalityWithValidCredentials</span>
+                <br/>
+                <span class="ignored-method-name">verifyLableEmployeeOptionCreateOnHomePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyLableCollapsibleContentonHomePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyCreateEmployeeHeaderOnCreateEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyAndDeleteEmployeebtnonSearchEmployeePage</span>
+                <br/>
+                <span class="ignored-method-name">verifyAndClickEditEmployeebtnonSearchEmployeePage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -221,30 +271,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Test.JalaTechTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Test.JalaTechnologiesDemo</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">launchBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">createObject</span>
-                <span class="method-start">4604 ms</span>
+                <span class="method-start">2174 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">launchURL</span>
-                <span class="method-start">4637 ms</span>
+                <span class="method-start">2258 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginPage</span>
-                <span class="method-start">7728 ms</span>
+                <span class="method-name">verifyLableEmploeeOptionsOnHomePage</span>
+                <span class="method-start">2858 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">logout([TestResult name=verifyLoginPage status=SUCCESS method=JalaTechTest.verifyLoginPage()[pri:0, instanc...)</span>
-                <span class="method-start">72829 ms</span>
+                <span class="method-name">logout([TestResult name=verifyLableEmploeeOptionsOnHomePage status=SUCCESS method=JalaTechnologiesDemo.veri...)</span>
+                <span class="method-start">15968 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">72843 ms</span>
+                <span class="method-start">15981 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,20 +1,19 @@
 package Pages;
 
-import java.time.Duration;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.asserts.SoftAssert;
+
 
 public class HomePage {
 	
 	private WebDriver driver;
+	
+	 SoftAssert softAssert = new SoftAssert();
 
 	
 	@FindBy(xpath="//*[contains(@class,'fa fa-users')]")
@@ -81,11 +80,14 @@ public class HomePage {
 	}
 	
 	public void verifyLableEmployeeOptionsDisplayed() {
-	boolean status=	lableEmployeeCreate.isDisplayed();
-	System.out.println("Option label employee create is displayed = "+status);
-	boolean status1=lableEmployeeSearch.isDisplayed();
-	System.out.println("Option label employee search is displayed = "+status1);
+	    boolean status = lableEmployeeCreate.isDisplayed();
+	    softAssert.assertTrue(status, "Employee Create option not displayed!");
+	    System.out.println("Option label employee create is displayed = " + status);
 
+	    boolean status1 = lableEmployeeSearch.isDisplayed();
+	    softAssert.assertTrue(status1, "Employee Search option not displayed!");
+	    System.out.println("Option label employee search is displayed = " + status1);
+	    
 	}
 	
 	public void clickOptionCreate() throws InterruptedException {
@@ -99,19 +101,21 @@ public class HomePage {
 		lableEmployeeSearch.click();
 		Thread.sleep(1000);
 	}
-		
-	public void verifyLabelCollapsibleContent() throws InterruptedException {
-		Thread.sleep(1000);
-		lableMoreCollapsibleContent.click();
-		Thread.sleep(1000);
-
-		if(tileFirstCollapsible.isDisplayed()) {
-			tileFirstCollapsible.click();
-		}
-		Thread.sleep(1000);
-
-	}
 	
+	public void verifyLabelCollapsibleContent() throws InterruptedException {
+	    Thread.sleep(1000);
+
+	    softAssert.assertTrue(lableMoreCollapsibleContent.isDisplayed(), "Collapsible Content label is not displayed!");
+	    lableMoreCollapsibleContent.click();
+	    Thread.sleep(1000);
+
+	    softAssert.assertTrue(tileFirstCollapsible.isDisplayed(), "First collapsible tile is not displayed!");
+
+	    if (tileFirstCollapsible.isDisplayed()) {
+	        tileFirstCollapsible.click();
+	    }
+	    Thread.sleep(1000);
+	}
 	
 	public void verifyLabelMenu() throws InterruptedException {
 		Thread.sleep(1000);
@@ -125,11 +129,11 @@ public class HomePage {
 		tabSubMenu.click();
 		Thread.sleep(1000);
 		if(tabTesting.isDisplayed()) {
-		}
+		
 		Actions actions = new Actions(driver);
 		actions.moveToElement(tabTesting).moveToElement(subTabSelenium).click().build().perform();
 		Thread.sleep(1000);
-
+		}
 	}
 	
 	public void verifyMultipleTab() throws InterruptedException {
@@ -137,6 +141,7 @@ public class HomePage {
 		lableMoreMultipleTabst.click();
 		Thread.sleep(1000);
 		if(tabUnLearning.isDisplayed()) {
+			 softAssert.assertTrue(tabUnLearning.isDisplayed(), "tab UnLearning is not displayed!");
 			tabUnLearning.click();
 			Thread.sleep(1000);
 
@@ -154,9 +159,6 @@ public class HomePage {
 			Thread.sleep(1000);
 
 	}
-	
-	
-			
 	}
 	
 	

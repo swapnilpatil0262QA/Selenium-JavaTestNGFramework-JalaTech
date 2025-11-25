@@ -12,6 +12,10 @@ public class SearchEmployeePage {
 	@FindBy(xpath="//h3")
 	private WebElement headerEmployeeSearch;
 	
+	@FindBy(xpath="//*[@class='btn btn-info btn-sm']")
+	private WebElement btnAddEmployee;
+	
+	
 	@FindBy(xpath="//input[@id=\"Name\"]")
 	private WebElement nameTextbox;
 	
@@ -27,6 +31,14 @@ public class SearchEmployeePage {
 	@FindBy(xpath="//button[text()='Yes']")
 	private WebElement btnYes;
 	
+	@FindBy(xpath="//*[@class= 'btn btn-success btn-xs']")
+	private WebElement btnEditEmployee;
+	
+	
+	@FindBy(xpath="//h1")
+	private WebElement headerEmployeeEdit;
+	
+	
 	public SearchEmployeePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -36,7 +48,6 @@ public class SearchEmployeePage {
 		Thread.sleep(1000);
 		String Header = headerEmployeeSearch.getText();
         System.out.println("Hedaer text = "+ Header );
-
         
 	}
         
@@ -64,9 +75,24 @@ public class SearchEmployeePage {
     		Thread.sleep(500);
         	btnYes.click();	
         	Thread.sleep(500);
-    			
-    		}
+    		}		
+        }
+    		public void clickBtnAddEmployee() throws InterruptedException {
+        		Thread.sleep(500);
+        		btnAddEmployee.click();
+        		Thread.sleep(500);
     	}
         
-        
+    		public void clickBtnEditEmployee() throws InterruptedException {
+        		Thread.sleep(500);
+        		btnEditEmployee.click();
+        		Thread.sleep(500);
+    	}
+
+    		public void verifyEditEmployeeHeader() throws InterruptedException {
+    			Thread.sleep(1000);
+    			String Header = headerEmployeeEdit.getText();
+    	        System.out.println("Hedaer text = "+ Header );
+
+    		}
 }

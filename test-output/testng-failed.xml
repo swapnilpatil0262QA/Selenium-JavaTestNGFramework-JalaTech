@@ -3,16 +3,37 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.JalaTechTest">
+      <class name="Test.JalaTechnologiesDemo">
         <methods>
-          <include name="launchURL"/>
-          <include name="verifyLoginPage"/>
+          <include name="verifyAndClickCheckboxQAAutomationonCreateEmployeePage"/>
+          <include name="verifyAndClickSaveButtononCreateEmployeePage"/>
+          <include name="verifyAndClickLableMoreonHomePage"/>
+          <include name="verifyLableMenuonHomePage"/>
           <include name="closeBrowser"/>
-          <include name="createObject"/>
-          <include name="logout"/>
+          <include name="verifyLableCollapsibleContentonHomePage"/>
           <include name="launchBrowser"/>
+          <include name="verifyLableEmployeeOnHomePage"/>
+          <include name="verifyAndDeleteEmployeebtnonSearchEmployeePage"/>
+          <include name="verifyAddressDetailsOnCreateEmployeePage"/>
+          <include name="verifyLableEmploeeOptionsOnHomePage"/>
+          <include name="logout"/>
+          <include name="verifyEditEmployeeHeaderonEditEmployeePage"/>
+          <include name="verifyCreateEmployeeHeaderOnCreateEmployeePage"/>
+          <include name="verifyandClickAddEmployeeBtnOnSearchEmployeePage"/>
+          <include name="verifyLableEmployeeOptionCreateOnHomePage"/>
+          <include name="verifyLoginFunctionalityWithValidCredentials"/>
+          <include name="verifyAndEnterNameonSearchEmployeePage"/>
+          <include name="verifyAndClickEditEmployeebtnonSearchEmployeePage"/>
+          <include name="createObject"/>
+          <include name="verifyAndClickSearchbtnonSearchEmployeePage"/>
+          <include name="verifyEmployeePersonalDetailsOnCreateEmployeePage"/>
+          <include name="verifyLableEmployeeOptionSearchOnHomePage"/>
+          <include name="verifyAndMultipleTabonHomePage"/>
+          <include name="launchURL"/>
+          <include name="verifyandClickRadioButtonMaleOnCreateEmployeePage"/>
+          <include name="verifySearchEmployeeHeaderonSearchEmployeePage"/>
         </methods>
-      </class> <!-- Test.JalaTechTest -->
+      </class> <!-- Test.JalaTechnologiesDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

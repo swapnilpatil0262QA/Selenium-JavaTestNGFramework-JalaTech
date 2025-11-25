@@ -16,7 +16,6 @@ public class Browser {
 		chromeOptions.addArguments("--disable-extensions");
 		chromeOptions.addArguments("--disable-save-password-bubble");
 		chromeOptions.addArguments("--disable-infobars");
-//		chromeOptions.addArguments("--headless=new");
 		chromeOptions.addArguments("--incognito");
 
 		WebDriver driver=new ChromeDriver(chromeOptions);
