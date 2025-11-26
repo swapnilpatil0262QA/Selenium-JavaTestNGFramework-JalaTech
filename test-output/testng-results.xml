@@ -1,40 +1,509 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="21" total="22" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="22" passed="21" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-25T17:44:45 IST" name="Default suite" finished-at="2025-11-25T17:45:01 IST" duration-ms="16276">
+  <suite started-at="2025-11-26T10:26:10 IST" name="Default suite" finished-at="2025-11-26T10:33:24 IST" duration-ms="434408">
     <groups>
     </groups>
-    <test started-at="2025-11-25T17:44:45 IST" name="Default test" finished-at="2025-11-25T17:45:01 IST" duration-ms="16276">
+    <test started-at="2025-11-26T10:26:10 IST" name="Default test" finished-at="2025-11-26T10:33:24 IST" duration-ms="434408">
       <class name="Test.JalaTechnologiesDemo">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Test.JalaTechnologiesDemo@4009e306]" started-at="2025-11-25T17:44:45 IST" name="launchBrowser" finished-at="2025-11-25T17:44:47 IST" duration-ms="2131" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:10 IST" name="launchBrowser" finished-at="2025-11-26T10:26:12 IST" duration-ms="2241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="createObject()[pri:0, instance:Test.JalaTechnologiesDemo@4009e306]" started-at="2025-11-25T17:44:47 IST" name="createObject" finished-at="2025-11-25T17:44:47 IST" duration-ms="56" status="PASS">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:12 IST" name="createObject" finished-at="2025-11-26T10:26:12 IST" duration-ms="88" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createObject -->
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@4009e306]" started-at="2025-11-25T17:44:47 IST" name="launchURL" finished-at="2025-11-25T17:44:48 IST" duration-ms="600" status="PASS">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:12 IST" name="launchURL" finished-at="2025-11-26T10:26:12 IST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="verifyLableEmploeeOptionsOnHomePage()[pri:3, instance:Test.JalaTechnologiesDemo@4009e306]" started-at="2025-11-25T17:44:48 IST" name="verifyLableEmploeeOptionsOnHomePage" finished-at="2025-11-25T17:45:01 IST" duration-ms="13110" status="PASS">
+        <test-method signature="verifyLoginFunctionalityWithValidCredentials()[pri:1, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:12 IST" name="verifyLoginFunctionalityWithValidCredentials" finished-at="2025-11-26T10:26:24 IST" duration-ms="11396" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLableEmploeeOptionsOnHomePage -->
-        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@4009e306]" started-at="2025-11-25T17:45:01 IST" name="logout" finished-at="2025-11-25T17:45:01 IST" duration-ms="11" status="PASS">
+        </test-method> <!-- verifyLoginFunctionalityWithValidCredentials -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:24 IST" name="logout" finished-at="2025-11-26T10:26:24 IST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLableEmploeeOptionsOnHomePage status=SUCCESS method=JalaTechnologiesDemo.verifyLableEmploeeOptionsOnHomePage()[pri:3, instance:Test.JalaTechnologiesDemo@4009e306] output={null}]]]>
+                <![CDATA[[TestResult name=verifyLoginFunctionalityWithValidCredentials status=SUCCESS method=JalaTechnologiesDemo.verifyLoginFunctionalityWithValidCredentials()[pri:1, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.JalaTechnologiesDemo@4009e306]" started-at="2025-11-25T17:45:01 IST" name="closeBrowser" finished-at="2025-11-25T17:45:01 IST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:24 IST" name="launchURL" finished-at="2025-11-26T10:26:24 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyLableEmployeeOnHomePage()[pri:2, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:24 IST" name="verifyLableEmployeeOnHomePage" finished-at="2025-11-26T10:26:37 IST" duration-ms="12945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLableEmployeeOnHomePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:37 IST" name="logout" finished-at="2025-11-26T10:26:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLableEmployeeOnHomePage status=SUCCESS method=JalaTechnologiesDemo.verifyLableEmployeeOnHomePage()[pri:2, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:37 IST" name="launchURL" finished-at="2025-11-26T10:26:37 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyLableEmploeeOptionsOnHomePage()[pri:3, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:37 IST" name="verifyLableEmploeeOptionsOnHomePage" finished-at="2025-11-26T10:26:50 IST" duration-ms="13103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLableEmploeeOptionsOnHomePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:50 IST" name="logout" finished-at="2025-11-26T10:26:50 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLableEmploeeOptionsOnHomePage status=SUCCESS method=JalaTechnologiesDemo.verifyLableEmploeeOptionsOnHomePage()[pri:3, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:50 IST" name="launchURL" finished-at="2025-11-26T10:26:50 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyLableEmployeeOptionCreateOnHomePage()[pri:4, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:26:50 IST" name="verifyLableEmployeeOptionCreateOnHomePage" finished-at="2025-11-26T10:27:05 IST" duration-ms="15167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLableEmployeeOptionCreateOnHomePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:27:05 IST" name="logout" finished-at="2025-11-26T10:27:05 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLableEmployeeOptionCreateOnHomePage status=SUCCESS method=JalaTechnologiesDemo.verifyLableEmployeeOptionCreateOnHomePage()[pri:4, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:27:05 IST" name="launchURL" finished-at="2025-11-26T10:27:05 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyCreateEmployeeHeaderOnCreateEmployeePage()[pri:5, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:27:05 IST" name="verifyCreateEmployeeHeaderOnCreateEmployeePage" finished-at="2025-11-26T10:27:22 IST" duration-ms="16441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateEmployeeHeaderOnCreateEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:27:22 IST" name="logout" finished-at="2025-11-26T10:27:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateEmployeeHeaderOnCreateEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyCreateEmployeeHeaderOnCreateEmployeePage()[pri:5, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:27:22 IST" name="launchURL" finished-at="2025-11-26T10:27:22 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyEmployeePersonalDetailsOnCreateEmployeePage()[pri:6, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:27:22 IST" name="verifyEmployeePersonalDetailsOnCreateEmployeePage" finished-at="2025-11-26T10:27:49 IST" duration-ms="26945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeePersonalDetailsOnCreateEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:27:49 IST" name="logout" finished-at="2025-11-26T10:27:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmployeePersonalDetailsOnCreateEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyEmployeePersonalDetailsOnCreateEmployeePage()[pri:6, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:27:49 IST" name="launchURL" finished-at="2025-11-26T10:27:49 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyandClickRadioButtonMaleOnCreateEmployeePage()[pri:7, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:27:49 IST" name="verifyandClickRadioButtonMaleOnCreateEmployeePage" finished-at="2025-11-26T10:28:17 IST" duration-ms="28146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyandClickRadioButtonMaleOnCreateEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:28:17 IST" name="logout" finished-at="2025-11-26T10:28:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyandClickRadioButtonMaleOnCreateEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyandClickRadioButtonMaleOnCreateEmployeePage()[pri:7, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:28:17 IST" name="launchURL" finished-at="2025-11-26T10:28:17 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyAddressDetailsOnCreateEmployeePage()[pri:8, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:28:17 IST" name="verifyAddressDetailsOnCreateEmployeePage" finished-at="2025-11-26T10:28:51 IST" duration-ms="33756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddressDetailsOnCreateEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:28:51 IST" name="logout" finished-at="2025-11-26T10:28:51 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddressDetailsOnCreateEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyAddressDetailsOnCreateEmployeePage()[pri:8, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:28:51 IST" name="launchURL" finished-at="2025-11-26T10:28:51 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyAndClickCheckboxQAAutomationonCreateEmployeePage()[pri:8, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:28:51 IST" name="verifyAndClickCheckboxQAAutomationonCreateEmployeePage" finished-at="2025-11-26T10:29:26 IST" duration-ms="35211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAndClickCheckboxQAAutomationonCreateEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:29:26 IST" name="logout" finished-at="2025-11-26T10:29:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAndClickCheckboxQAAutomationonCreateEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyAndClickCheckboxQAAutomationonCreateEmployeePage()[pri:8, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:29:26 IST" name="launchURL" finished-at="2025-11-26T10:29:27 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyAndClickSaveButtononCreateEmployeePage()[pri:9, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:29:27 IST" name="verifyAndClickSaveButtononCreateEmployeePage" finished-at="2025-11-26T10:30:03 IST" duration-ms="36944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAndClickSaveButtononCreateEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:03 IST" name="logout" finished-at="2025-11-26T10:30:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAndClickSaveButtononCreateEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyAndClickSaveButtononCreateEmployeePage()[pri:9, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:03 IST" name="launchURL" finished-at="2025-11-26T10:30:05 IST" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyLableEmployeeOptionSearchOnHomePage()[pri:10, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:05 IST" name="verifyLableEmployeeOptionSearchOnHomePage" finished-at="2025-11-26T10:30:06 IST" duration-ms="1067" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='form-control' and @name='UserName']"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8018f42dd7e83a6f095b1b6b04a3311, findElement {using=xpath, value=//input[@class='form-control' and @name='UserName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Swapnil\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53869}, goog:processID: 20492, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53869/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8018f42dd7e83a6f095b1b6b04a3311]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='form-control' and @name='UserName']"}
+  (Session info: chrome=142.0.7444.176)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8018f42dd7e83a6f095b1b6b04a3311, findElement {using=xpath, value=//input[@class='form-control' and @name='UserName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Swapnil\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53869}, goog:processID: 20492, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53869/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8018f42dd7e83a6f095b1b6b04a3311
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at Pages.LoginPage.clickAndEnterEmail(LoginPage.java:34)
+at Test.JalaTechnologiesDemo.verifyLableEmployeeOptionSearchOnHomePage(JalaTechnologiesDemo.java:213)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLableEmployeeOptionSearchOnHomePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:06 IST" name="logout" finished-at="2025-11-26T10:30:06 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLableEmployeeOptionSearchOnHomePage status=FAILURE method=JalaTechnologiesDemo.verifyLableEmployeeOptionSearchOnHomePage()[pri:10, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:06 IST" name="launchURL" finished-at="2025-11-26T10:30:06 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifySearchEmployeeHeaderonSearchEmployeePage()[pri:11, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:06 IST" name="verifySearchEmployeeHeaderonSearchEmployeePage" finished-at="2025-11-26T10:30:22 IST" duration-ms="16245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchEmployeeHeaderonSearchEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:22 IST" name="logout" finished-at="2025-11-26T10:30:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchEmployeeHeaderonSearchEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifySearchEmployeeHeaderonSearchEmployeePage()[pri:11, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:22 IST" name="launchURL" finished-at="2025-11-26T10:30:22 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyandClickAddEmployeeBtnOnSearchEmployeePage()[pri:12, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:22 IST" name="verifyandClickAddEmployeeBtnOnSearchEmployeePage" finished-at="2025-11-26T10:30:39 IST" duration-ms="16561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyandClickAddEmployeeBtnOnSearchEmployeePage -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:39 IST" name="launchURL" finished-at="2025-11-26T10:30:39 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:39 IST" name="logout" finished-at="2025-11-26T10:30:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyandClickAddEmployeeBtnOnSearchEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyandClickAddEmployeeBtnOnSearchEmployeePage()[pri:12, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="verifyAndEnterNameonSearchEmployeePage()[pri:13, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:39 IST" name="verifyAndEnterNameonSearchEmployeePage" finished-at="2025-11-26T10:30:57 IST" duration-ms="17510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAndEnterNameonSearchEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:57 IST" name="logout" finished-at="2025-11-26T10:30:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAndEnterNameonSearchEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyAndEnterNameonSearchEmployeePage()[pri:13, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:57 IST" name="launchURL" finished-at="2025-11-26T10:30:57 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyAndClickSearchbtnonSearchEmployeePage()[pri:14, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:30:57 IST" name="verifyAndClickSearchbtnonSearchEmployeePage" finished-at="2025-11-26T10:31:15 IST" duration-ms="18472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAndClickSearchbtnonSearchEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:31:15 IST" name="logout" finished-at="2025-11-26T10:31:15 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAndClickSearchbtnonSearchEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyAndClickSearchbtnonSearchEmployeePage()[pri:14, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:31:15 IST" name="launchURL" finished-at="2025-11-26T10:31:15 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyAndClickEditEmployeebtnonSearchEmployeePage()[pri:15, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:31:15 IST" name="verifyAndClickEditEmployeebtnonSearchEmployeePage" finished-at="2025-11-26T10:31:35 IST" duration-ms="19890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAndClickEditEmployeebtnonSearchEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:31:35 IST" name="logout" finished-at="2025-11-26T10:31:35 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAndClickEditEmployeebtnonSearchEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyAndClickEditEmployeebtnonSearchEmployeePage()[pri:15, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:31:35 IST" name="launchURL" finished-at="2025-11-26T10:31:35 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyEditEmployeeHeaderonEditEmployeePage()[pri:16, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:31:35 IST" name="verifyEditEmployeeHeaderonEditEmployeePage" finished-at="2025-11-26T10:31:56 IST" duration-ms="20975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditEmployeeHeaderonEditEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:31:56 IST" name="logout" finished-at="2025-11-26T10:31:56 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEditEmployeeHeaderonEditEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyEditEmployeeHeaderonEditEmployeePage()[pri:16, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:31:56 IST" name="launchURL" finished-at="2025-11-26T10:31:56 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyAndDeleteEmployeebtnonSearchEmployeePage()[pri:17, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:31:56 IST" name="verifyAndDeleteEmployeebtnonSearchEmployeePage" finished-at="2025-11-26T10:32:17 IST" duration-ms="20921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAndDeleteEmployeebtnonSearchEmployeePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:32:17 IST" name="logout" finished-at="2025-11-26T10:32:17 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAndDeleteEmployeebtnonSearchEmployeePage status=SUCCESS method=JalaTechnologiesDemo.verifyAndDeleteEmployeebtnonSearchEmployeePage()[pri:17, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:32:17 IST" name="launchURL" finished-at="2025-11-26T10:32:17 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyAndClickLableMoreonHomePage()[pri:18, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:32:17 IST" name="verifyAndClickLableMoreonHomePage" finished-at="2025-11-26T10:32:30 IST" duration-ms="12952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAndClickLableMoreonHomePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:32:30 IST" name="logout" finished-at="2025-11-26T10:32:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAndClickLableMoreonHomePage status=SUCCESS method=JalaTechnologiesDemo.verifyAndClickLableMoreonHomePage()[pri:18, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:32:30 IST" name="launchURL" finished-at="2025-11-26T10:32:30 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyAndMultipleTabonHomePage()[pri:19, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:32:30 IST" name="verifyAndMultipleTabonHomePage" finished-at="2025-11-26T10:32:48 IST" duration-ms="17468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAndMultipleTabonHomePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:32:48 IST" name="logout" finished-at="2025-11-26T10:32:48 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAndMultipleTabonHomePage status=SUCCESS method=JalaTechnologiesDemo.verifyAndMultipleTabonHomePage()[pri:19, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:32:48 IST" name="launchURL" finished-at="2025-11-26T10:32:48 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyLableMenuonHomePage()[pri:20, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:32:48 IST" name="verifyLableMenuonHomePage" finished-at="2025-11-26T10:33:07 IST" duration-ms="18955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLableMenuonHomePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:33:07 IST" name="logout" finished-at="2025-11-26T10:33:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLableMenuonHomePage status=SUCCESS method=JalaTechnologiesDemo.verifyLableMenuonHomePage()[pri:20, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:33:07 IST" name="launchURL" finished-at="2025-11-26T10:33:07 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyLableCollapsibleContentonHomePage()[pri:21, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:33:07 IST" name="verifyLableCollapsibleContentonHomePage" finished-at="2025-11-26T10:33:24 IST" duration-ms="16424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLableCollapsibleContentonHomePage -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:33:24 IST" name="logout" finished-at="2025-11-26T10:33:24 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLableCollapsibleContentonHomePage status=SUCCESS method=JalaTechnologiesDemo.verifyLableCollapsibleContentonHomePage()[pri:21, instance:Test.JalaTechnologiesDemo@6f4a47c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.JalaTechnologiesDemo@6f4a47c7]" started-at="2025-11-26T10:33:24 IST" name="closeBrowser" finished-at="2025-11-26T10:33:24 IST" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
